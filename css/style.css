@@ -1,0 +1,262 @@
+@font-face {
+	font-family: Catamaran;
+	src: url("../fonts/Catamaran-Light.ttf");
+}
+
+@font-face {
+	font-family: "Catamaran - Black";
+	src: url("../fonts/Catamaran-Black.ttf");
+}
+
+.content {
+	width: 100%
+	margin: 0 auto;
+	flex: 0 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+header {
+min-height: 660px;
+background:url(../img/header.png);
+}
+
+footer {
+height: 121px;
+background-color: #333333;
+flex: 0 0 auto;
+display: flex;
+justify-content: space-between;
+}
+
+.nav {
+	flex: 0 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.joinus, .signin {
+	width: 190px;
+	height: 58px;
+	padding: 21px 0 0 63px;
+	color: #ffffff;
+	font-family: Catamaran;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 36px;
+	letter-spacing: 1.8px;
+}
+
+.signin {
+	background-color: #ffffff;
+	opacity: 0.7;
+	color: #333;
+}
+
+main {
+min-height: 565px;
+}
+
+.logo {
+	width: 276px;
+	height: 109px;
+	margin: 0 0 0 27px;
+}
+
+.margin	{
+	width: 331px;
+	margin: 172px 0 0 246px;
+}
+
+.margin p {
+	width: 331px;
+	height: 88px;
+	color: #333333;
+	font-family: Catamaran;
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 54px;
+	letter-spacing: 3.6px;
+	text-align: center;
+}
+
+h4 {
+	text-align: center;
+	color: #333333;
+	font-family: Catamaran;
+	font-size: 16px;
+	font-weight: 300;
+	color: #00a8b2;
+	font-family: "Catamaran - Black";
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 1.8px;
+	line-height: 36px;
+}
+
+.row > div > p {
+	text-align: center;
+	color: #333333;
+	font-family: Catamaran;
+	font-size: 16px;
+	font-weight: 300;
+	font-family: "Catamaran Light";
+	font-weight: 300;
+	letter-spacing: 1.6px;
+	line-height: 24px;
+}
+.row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.row > div {
+	width: 250px;
+	height: 200px;
+}
+
+.row > div:nth-child(1) {
+	margin: 0 0 0 115px;
+}
+
+.row > div:nth-child(4) {
+	margin: 0 115px 0 0;
+}
+
+.item_image {
+	width: 75px;
+	height: 75px;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 0 auto;
+}
+
+.row > div:nth-child(1) .item_image {
+	background-image: url("../img/plus.png");
+}
+.row > div:nth-child(2) .item_image {
+	background-image: url("../img/translation.png");
+}
+.row > div:nth-child(3) .item_image {
+	background-image: url("../img/group2.png");
+}
+.row > div:nth-child(4) .item_image {
+	background-image: url("../img/idea.png");
+}
+
+section:nth-child(1) {
+	margin: 72px 0 55px 0;
+}
+
+h3 {
+	text-align: center;
+	height: 31px;
+	color: #00a8b2;
+	font-family: "Catamaran - Black";
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 36px;
+	letter-spacing: 3px;
+}
+
+section > p {
+	margin: 17px auto 55px;
+	width: 764px;
+	height: 40px;
+	color: #333333;
+	font-family: Catamaran;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+	letter-spacing: 1.6px;
+}
+
+.item_logo {
+	margin: 28px 0 0 54px;
+}
+
+.about_us {
+	width: 242px;
+	height: 52px;
+	color: #ffffff;
+	font-family: Catamaran;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 36px;
+	letter-spacing: 1.6px;
+	text-align: center;
+	margin: 35px 70px 0 0;
+}
+
+.about_us > div {
+	display: inline-block;
+}
+
+.about_us > div:after {
+	content: "";
+	display: inline-block;
+	width: 45px;
+	height: 5px;
+	background-color: #ffffff;
+}
+
+.about_us > div:before {
+	content: "";
+	display: inline-block;
+	width: 45px;
+	height: 5px;
+	background-color: #ffffff;
+}
+
+.form {
+	width: 377px;
+	height: 472px;
+	box-shadow: 0 6px 6px 1px rgba(44, 43, 45, 0.7);
+	background-color: #333333;
+	opacity: 0.9;
+	margin: 129px 156px 0 212px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+input {
+	width: 347px;
+	height: 40px;
+	background-color: #ffffff;
+	margin: 15px 0 0 13px;
+	color: #333333;
+	font-family: Catamaran;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 36px;
+	letter-spacing: 1.8px;
+}
+
+button {
+	width: 347px;
+	height: 40px;
+	background-color: #ff6600;
+	border: 0px solid #ff6600;
+	margin: 20px 0 0 14px;
+	color: #333333;
+	font-family: "Catamaran - Black";
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 36px;
+	letter-spacing: 3px;
+}
+
+label {
+	width: 317px;
+	height: 40px;
+	color: #ffffff;
+	font-family: Catamaran;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+	letter-spacing: 1.6px;
+	margin: 14px 0 0 13px;
+}
